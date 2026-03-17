@@ -1,9 +1,9 @@
 #include <iostream>
+#include "juego.h"
 
 using namespace std;
 
-int main()
-{
-    cout << "Hello World!" << endl;
-    return 0;
-}
+//int main() {
+  //  ejecutarJuego();
+    //return 0;
+//}

@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(Desafio1 main.cpp
     tablero.cpp. pieza.cpp game.cpp
     main.h
-    juego2.h
+
     tablero.h
     pieza.h
     game.h)
