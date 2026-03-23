@@ -10,13 +10,9 @@ void crearPieza(
     int &anchoPieza
     );
 
-void colocarPieza(
-    unsigned char** tablero,
-    unsigned char pieza[4],
-    int fila,
-    int columnaBit,
-    int bytes
-    );
+void colocarPieza(unsigned char** tablero, unsigned char pieza[4],
+                  int fila, int columnaBit, int bytes, int altoTablero);
+
 
 void moverPiezaHorizontal(
     int &columnaBit,
@@ -27,6 +23,6 @@ void moverPiezaHorizontal(
 
 void bajarPieza(int &fila);
 
-
+void rotarPieza(unsigned char pieza[4], int &altoPieza, int &anchoPieza);
 
 #endif

@@ -2,5 +2,6 @@
 #define JUEGO_H
 
 void ejecutarJuego();
+char leerInput();
 
 #endif
